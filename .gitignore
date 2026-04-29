@@ -1,5 +1,6 @@
 /data
 /mnist_images
+/__pycache__
 
 **/*.pth
 
