@@ -11,7 +11,7 @@ test_data = [(ToPILImage()(img), label) for img, label in test_data]
 
 import os
 import secrets
-
+_
 
 def save_images(dataset, folder_name):
     root_dir = os.path.join('./mnist_images', folder_name)
